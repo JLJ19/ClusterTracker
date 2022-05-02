@@ -27,6 +27,7 @@ Once you can get MATLAB to see the correct version of python, in MATLAB do the f
 4. Steps 1-3 create a py_cache folder that MATLAB needs.  If this step is not done, then MATLAB will give errors pretty much saying it doesn't recognize your py.stuff.  This may need to be done every time to re-start MATLAB.
 5. Navigate in MATLAB to the root folder for this project. Type "addpath IOU SORT OCSORT" in the CommandWindow
 6. Type "savepath" in CommandWindow so that MATLAB remembers step 5.
+7. Run one of the following scripts.  Scripts not mentioned are function files.
 
 Running Scripts:
 
