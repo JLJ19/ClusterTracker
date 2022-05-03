@@ -3,7 +3,7 @@ We hope that this work is useful to you!  We have a few instructions to try to h
 
 Requirements:
 
-Install Python for MATLAB...we used Python 3.8 and MATLAB 2021a (with additional official toolboxes, i.e., Computer Vision, Image Processing, Stats and ML, and Signal Processing).  MATLAB has trouble with conda/virtual environments etc, so you will likely need to install Python 3.8 and then install the additional requirements for the basic functionality of IOU, SORT, and OCSORT - which I believe is just numpy.  You need to then make sure MATLAB is pointing to Python's location...instruction below, "pyenv" in Command Window tells you which python version is active and where it is looking.
+Install Python for MATLAB...we used Python 3.8 and MATLAB 2021a (with additional official toolboxes, i.e., Computer Vision, Image Processing, Stats and ML, and Signal Processing).  MATLAB has trouble with conda/virtual environments etc, so you will likely need to install Python 3.8 and then install the additional requirements for the basic functionality of IOU, SORT, and OCSORT - which I believe is just numpy.  You need to then make sure MATLAB is pointing to Python's location...instructions below, "pyenv" in Command Window tells you which python version is active and where it is looking.
 
 https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html
 
