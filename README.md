@@ -1,4 +1,8 @@
 # ClusterTracker
+
+Description:
+
+ClusterTracker uses DBSCAN to perform spatial clustering on the object detections from short 10-frame sequences, treats clusters as tracklets, and then merges successive tracklets with high bounding box overlap to form tracks.  CT can be run in an online mode with a 10 frame latency or in parallel across multiple cores for offline analysis.
 We hope that this work is useful to you!  We have a few instructions to try to help you get everything working.
 
 Requirements:
