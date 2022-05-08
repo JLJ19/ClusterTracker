@@ -2,7 +2,7 @@
 
 Description:
 
-This repository contains the code used for ClusterTracker, a multiple object tracking method that is listed as "CTv0" in the MOT20 and HT21 challenges of https://motchallenge.net.  ClusterTracker uses DBSCAN to perform spatial clustering on the object detections from short 10-frame sequences, treats clusters as tracklets, and then merges successive tracklets with high bounding box overlap to form tracks.  ClusterTracker can be run in an online mode with a 10 frame latency or in parallel across multiple cores for offline analysis.
+This repository contains the code used for ClusterTracker, a multiple object tracking method that is listed as "CTv0" in the MOT20 and HT21 challenges of https://motchallenge.net.  ClusterTracker uses DBSCAN to perform spatial clustering on the object detections from short 10-frame sequences, treats clusters as tracklets, and then merges successive tracklets with high bounding box overlap to form tracks.  ClusterTracker can be run in an online mode with a 10 frame latency or in parallel across multiple cores for offline analysis. ClusterTracker is described in detail in our paper: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4102945
 We hope that this work is useful to you!  We have a few instructions to try to help you get everything working.
 
 Requirements:
