@@ -50,7 +50,7 @@ function [Tracks, StartPt, EndPt, StationaryFlag, Time] = CT_v0(FV, nFrames, Sta
         for i=1:NumBins
             FV = Bin{i}(:,1:8);
             if ~isempty(FV)
-                idx = dbscan(double(FV(:,1:3)),CT_Settings.eps,CT_Settings.minpts); % run DBSCAN
+                idx = dbscan(double(FV(:,1:2)),CT_Settings.eps,CT_Settings.minpts); % run DBSCAN
                 labels = unique(idx);
                 % Eliminate outliers - noise points are ignored/untracked
                 if ismember(-1,labels)
